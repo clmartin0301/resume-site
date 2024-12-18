@@ -29,7 +29,7 @@ html, body {
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
    /* border-radius: 12px; /* Rounded corners */
-    font-size: 16px; /* Text size */
+    font-size: 24px; /* Text size */
    /* transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
@@ -67,6 +67,14 @@ body {
     color: #2b2bae;
 }
 
+h1 {
+    font-size: 72px;
+}
+
+p {
+    font-size: 24px;
+}
+
 /* Button styling */
 a.button {
     display: inline-block; /* Make it behave like a button */
@@ -76,7 +84,7 @@ a.button {
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove underline from the link */
     border-radius: 12px; /* Rounded corners */
-    font-size: 16px; /* Text size */
+    font-size: 24px; /* Text size */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
