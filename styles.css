@@ -34,7 +34,7 @@ html, body {
         .icon-link {
             text-decoration: none;
             color: white;
-            font-size: 1.8rem;
+            font-size: 1.2rem;
             transition: transform 0.2s, color 0.2s;
         }
 
@@ -63,7 +63,7 @@ html, body {
     border-radius: 50%;
     font-family: Raleway;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     transition: all 0.3s ease;
 }
 
