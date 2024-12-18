@@ -49,6 +49,10 @@ html, body {
             color: #0077b5; /* LinkedIn blue */
         }
 
+        /* Instagram Specific Hover Color */
+        .icon-link.instagram:hover {
+            color: #e1306c; /* Instagram pink */
+
 /* Home button styling */
 .home-button {
     display: inline-block;
