@@ -1,2 +1,2 @@
-# my-simple-website
-My personal website
+# resume-site
+My personal website with linked resume PDF
