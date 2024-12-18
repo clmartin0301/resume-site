@@ -39,9 +39,14 @@ html, body {
 
 /* Content area takes all available space except footer */
 .content {
-    flex: 1;
+    flex: 1; /* Take up remaining space between header and footer */
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
     padding: 20px; /* Your content padding */
     box-sizing: border-box; /* Includes padding in width/height calculation */
+    text-align: center;
 }
 
 /* Footer styling */
