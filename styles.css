@@ -9,7 +9,7 @@ body {
 a.button {
   display: inline-block; /* Make it behave like a button */
   padding: 10px 20px; /* Space around the text */
-  background-color: #c0e91f; /* Green background color */
+  background-color: #a0c11f; /* Green background color */
   color: white; /* Text color */
   text-align: center; /* Center the text */
   text-decoration: none; /* Remove underline from the link */
@@ -19,5 +19,5 @@ a.button {
 }
 
 a.button:hover {
-  background-color: #a0c11f; /* Darker green on hover */
+  background-color: #7e981a; /* Darker green on hover */
 }
