@@ -64,6 +64,7 @@ html, body {
     color: white; /* Footer text color */
     font-size: 0.5rem;
     text-align: center; /* Center the text */
+    justify-content: center;
     position: relative;
     box-sizing: border-box; /* Prevent padding from affecting width */
 }
