@@ -11,8 +11,8 @@ html, body {
 /* Header styling */
 .header {
     width: 100%;
-    padding: 20px;
-    background-color: #666;
+    padding: 10px;
+    background-color: #444;
     color: white;
     text-align: left;
     box-sizing: border-box;
