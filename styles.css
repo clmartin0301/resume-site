@@ -31,7 +31,7 @@ html, body {
         }
 
        /* Icon Links */
-        .icon-link {
+  /*      .icon-link {
             text-decoration: none;
             color: white;
             font-size: 1.2rem;
@@ -39,13 +39,13 @@ html, body {
         }
 
         /* Hover Effects */
-        .icon-link:hover {
+/*        .icon-link:hover {
             transform: scale(1.2);
             color: #007bff;
         }
 
         /* Specific LinkedIn Icon Color */
-        .icon-link.linkedin:hover {
+/*        .icon-link.linkedin:hover {
             color: #0077b5; /* LinkedIn blue */
         }
 
