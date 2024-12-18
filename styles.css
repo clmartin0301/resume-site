@@ -24,9 +24,9 @@ html, body {
 /* Home button styling */
 .home-button {
     display: inline-block; /* Make it behave like a button */
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border: 2px solid #a0c11f; /* Colored border */
    /* padding: 10px 20px; /* Space around the text */
     background-color: transparent; /* No background color */
