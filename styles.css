@@ -29,6 +29,7 @@ html, body {
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
    /* border-radius: 12px; /* Rounded corners */
+    font-family: Raleway;
     font-size: 1.2rem; /* Text size */
    /* transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
@@ -55,6 +56,7 @@ html, body {
     padding: 20px; /* Padding inside the footer */
     background-color: #333; /* Footer background color */
     color: white; /* Footer text color */
+    font-size: 0.5rem;
     text-align: center; /* Center the text */
     position: relative;
     box-sizing: border-box; /* Prevent padding from affecting width */
@@ -87,6 +89,7 @@ a.button {
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove underline from the link */
     border-radius: 12px; /* Rounded corners */
+    font-family: Raleway;
     font-size: 1.2rem; /* Text size */
     margin-top: 10px; /* Add spacing above the button */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
