@@ -25,16 +25,16 @@ html, body {
 .home-button {
     display: inline-block; /* Make it behave like a button */
     padding: 10px 20px; /* Space around the text */
-    background-color: #a0c11f; /* Green background color */
+   /* background-color: #a0c11f; /* Green background color */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
-    border-radius: 12px; /* Rounded corners */
+   /* border-radius: 12px; /* Rounded corners */
     font-size: 16px; /* Text size */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+   /* transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .home-button:hover {
-    background-color: #7e981a; /* Darker green on hover */
+   /* background-color: #7e981a; /* Darker green on hover */
 }
 
 /* Content area takes all available space except footer */
