@@ -41,7 +41,11 @@ html, body {
         /* Hover Effects */
         .icon-link:hover {
             transform: scale(1.2);
-            color: #007bff;
+        }
+
+        /* Specific GitHub Icon Color */
+        .icon-link.github:hover {
+            color: #6e5494; /* GitHub purple */
         }
 
         /* Specific LinkedIn Icon Color */
