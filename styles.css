@@ -41,12 +41,11 @@ html, body {
         /* Hover Effects */
         .icon-link:hover {
             transform: scale(1.2);
-            /*color: #007bff;*/
+            color: #007bff;
         }
 
         /* Specific LinkedIn Icon Color */
         .icon-link.linkedin:hover {
-            transform: scale(1.2);
             color: #0077b5; /* LinkedIn blue */
         }
 
