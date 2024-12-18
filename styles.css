@@ -59,16 +59,17 @@ html, body {
 /* Footer styling */
 .footer {
     width: 100%; /* Full width */
+    height: auto; /* Adjust based on content height */
     padding: 20px; /* Padding inside the footer */
     background-color: #333; /* Footer background color */
     color: white; /* Footer text color */
-    font-size: 0.2rem;
-    text-align: center; /* Center the text */
+    font-size: 0.3rem; /* Adjust font size as needed */
+    text-align: center; /* Center text horizontally */
     display: flex; /* Enable Flexbox */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
-    position: relative;
-    box-sizing: border-box; /* Prevent padding from affecting width */
+    box-sizing: border-box; /* Prevent padding from affecting dimensions */
+    position: relative; /* Normal flow positioning */
 }
 
 body {
