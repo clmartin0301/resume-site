@@ -50,8 +50,9 @@ html, body {
         }
 
         /* Instagram Specific Hover Color */
-  /*      .icon-link.instagram:hover {
+        .icon-link.instagram:hover {
             color: #e1306c; /* Instagram pink */
+        }
 
 /* Home button styling */
 .home-button {
