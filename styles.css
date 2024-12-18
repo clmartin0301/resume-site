@@ -19,7 +19,35 @@ html, body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    display: flex; /* Horizontal layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically align items */
 }
+
+/* Container for Links */
+        .nav-links {
+            display: flex; /* Horizontal layout for links */
+            gap: 20px; /* Space between links */
+        }
+
+       /* Icon Links */
+        .icon-link {
+            text-decoration: none;
+            color: white;
+            font-size: 1.8rem;
+            transition: transform 0.2s, color 0.2s;
+        }
+
+        /* Hover Effects */
+        .icon-link:hover {
+            transform: scale(1.2);
+            color: #007bff;
+        }
+
+        /* Specific LinkedIn Icon Color */
+        .icon-link.linkedin:hover {
+            color: #0077b5; /* LinkedIn blue */
+        }
 
 /* Home button styling */
 .home-button {
@@ -35,7 +63,7 @@ html, body {
     border-radius: 50%;
     font-family: Raleway;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     transition: all 0.3s ease;
 }
 
