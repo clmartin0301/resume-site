@@ -24,14 +24,20 @@ html, body {
 /* Home button styling */
 .home-button {
     display: inline-block; /* Make it behave like a button */
-    padding: 10px 20px; /* Space around the text */
-   /* background-color: #a0c11f; /* Green background color */
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid #a0c11f; /* Colored border */
+   /* padding: 10px 20px; /* Space around the text */
+    background-color: transparent; /* No background color */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
-   /* border-radius: 12px; /* Rounded corners */
+    text-align: center; /* Center text horizontally */
+    border-radius: 50%; /* Circle */
     font-family: Raleway;
+    font-weight: bold;
     font-size: 1.2rem; /* Text size */
-   /* transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .home-button:hover {
