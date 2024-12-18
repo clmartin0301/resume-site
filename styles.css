@@ -2,6 +2,8 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
     display: flex;
     flex-direction: column;
 }
@@ -10,6 +12,7 @@ html, body {
 .content {
     flex: 1;
     padding: 20px; /* Your content padding */
+    box-sizing: border-box; /* Includes padding in width/height calculation */
 }
 
 /* Footer styling */
@@ -20,27 +23,29 @@ html, body {
     color: white; /* Footer text color */
     text-align: center; /* Center the text */
     position: relative;
+    box-sizing: border-box; /* Prevent padding from affecting width */
 }
 
 body {
-    font-family: Aleo;
+    font-family: Aleo, sans-serif; /* Fallback font */
     text-align: center;
     background-color: #f0f0f0;
     color: #2b2bae;
 }
 
+/* Button styling */
 a.button {
-  display: inline-block; /* Make it behave like a button */
-  padding: 10px 20px; /* Space around the text */
-  background-color: #a0c11f; /* Green background color */
-  color: white; /* Text color */
-  text-align: center; /* Center the text */
-  text-decoration: none; /* Remove underline from the link */
-  border-radius: 12px; /* Rounded corners */
-  font-size: 16px; /* Text size */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    display: inline-block; /* Make it behave like a button */
+    padding: 10px 20px; /* Space around the text */
+    background-color: #a0c11f; /* Green background color */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 12px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 a.button:hover {
-  background-color: #7e981a; /* Darker green on hover */
+    background-color: #7e981a; /* Darker green on hover */
 }
